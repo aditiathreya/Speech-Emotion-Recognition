@@ -63,7 +63,7 @@ x_train,x_test,y_train,y_test=load_data(test_size=0.25)
 #Get the shape of the training and testing datasets
 print((x_train.shape, x_test.shape))
 
-#DataFlair - Get the number of features extracted
+#Get the number of features extracted
 print(f'Features extracted: {x_train.shape[1]}')
 
 
